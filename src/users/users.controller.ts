@@ -15,7 +15,7 @@ export class UsersController{
     createUser(@Body() Body: createUserDto): {
       const user = new User();
 
-      console.log({ user });
+      console.log(user);
     }
 
 }
